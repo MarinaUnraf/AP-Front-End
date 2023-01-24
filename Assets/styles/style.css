@@ -1,6 +1,6 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
+    
     margin: 0;
     padding: 0;
 
@@ -8,5 +8,8 @@
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 50px;
+}
+figure{
+    size-adjust: cover;
 }
