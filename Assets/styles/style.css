@@ -14,46 +14,70 @@ header{
    
     
 }
+header h2{
+   
+    background-color: black;
+    color: white;
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+    margin-top: 0px;
+}
 h1{
     font-family: Arial;
     font-size: 36pt;
     text-align: left;
     letter-spacing: -2px;
     font-style: oblique;
-   margin: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
     color: midnightblue;
     text-shadow: 3px 3px 5px gray;
     display: inline-block;
 }
+figure img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0px;
+}
 nav{
     display: inline-block;
     margin-top: 15px;
-    margin-bottom: 15px;
-    
-    
-    
+    display: inline-block;
+    position: relative; 
     
 }
 nav a{
     text-decoration: none;
-    color: black;
+    color: white;
     text-align: center;
     padding: 3px;
-    background-color: rgb(7, 218, 7);
+    background-color: rgb(5, 123, 213);
     border: 1px solid black;
     box-shadow: 2px 2px black;
     
 }
 a:hover{
-    background-color: yellow;
+    background-color: rgb(234, 245, 19);
     zoom: 1.1;
 }
+aside {
+    display: inline-block;
+   
 
-figure img{
-    width: 100%;
-    height: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border: 3px solid gray;
-    border-bottom: 0px;
 }
+
+
+section {
+    display: inline-block;
+    vertical-align: top;
+    background-color: antiquewhite;
+    
+}
+
+main{
+    
+    background-color: white;
+    padding: 20px 10px 20px 10px ;
+}
+
+
