@@ -10,6 +10,7 @@ header{
     padding: 20px 10px 20px 10px ;
     display: block;
     margin: 10px 10px 0px 10px;
+    margin-bottom: 0px;
     
    
     
@@ -55,28 +56,24 @@ nav a{
     border: 1px solid black;
     box-shadow: 2px 2px black;
     
-<<<<<<< HEAD
 }
 a:hover{
     background-color: rgb(234, 245, 19);
-    zoom: 1.1;
+   
 }
+
 aside {
     display: inline-block;
    
 
 }
-=======
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
->>>>>>> ecf3a42342c73835c4dd23694c678aaca14b83c4
-
 
 section {
     display: inline-block;
     vertical-align: top;
     background-color: antiquewhite;
+	width: 72.8%;
+
     
 }
 
