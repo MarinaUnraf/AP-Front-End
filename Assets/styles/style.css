@@ -43,36 +43,42 @@ figure img{
 nav{
     display: inline-block;
     margin-top: 15px;
-    display: inline-block;
-    position: relative; 
+    position: absolute;
+    top: 12%;
+    left: 83%;
+    
     
 }
 nav a{
     text-decoration: none;
+    font-weight: bold;
     color: white;
     text-align: center;
-    padding: 3px;
+    padding: 10px;
     background-color: rgb(5, 123, 213);
     border: 1px solid black;
     box-shadow: 2px 2px black;
     
 }
-a:hover{
+/* a:hover{
     background-color: rgb(234, 245, 19);
    
-}
+} */
 
 aside {
     display: inline-block;
+    inline-size: auto;
    
 
 }
 
 section {
     display: inline-block;
-    vertical-align: top;
     background-color: antiquewhite;
-	width: 72.8%;
+	padding-top: 100px;
+    padding-right: 20px;
+    padding-left: 50px;
+    
 
     
 }
@@ -89,6 +95,13 @@ main{
     
     background-color: white;
     padding: 20px 10px 20px 10px ;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: max-content;
+    
+} 
+.current-page{
+    background-color: rgb(18, 173, 18);
 }
 
 
