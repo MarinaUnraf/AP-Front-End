@@ -6,11 +6,12 @@
 
 }
 header{
-    background-color: paleturquoise;
+  
     padding: 20px 10px 20px 10px ;
     display: block;
     margin: 10px 10px 0px 10px;
     margin-bottom: 0px;
+    position: relative;
     
    
     
@@ -33,7 +34,7 @@ h1{
     margin-bottom: 10px;
     color: yellow;
     -webkit-text-stroke: 1px red;
-    text-shadow: 3px 3px 5px gray;
+    text-shadow: 3px 3px  gray;
     display: inline-block;
 }
 figure img{
@@ -45,7 +46,7 @@ nav{
     display: inline-block;
     margin-top: 15px;
     position: absolute;
-    top: 8%;
+    top: 5%;
     left: 83%;
     
     
@@ -75,16 +76,16 @@ aside {
 
 section {
     display: inline-block;
-    background-color: antiquewhite;
+    background-color: white;
 	padding-top: 100px;
     padding-right: 20px;
     padding-left: 50px;
-    
+    margin-right: 5px;
 
     
 }
 article p{
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 5px;
     
 }
