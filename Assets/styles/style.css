@@ -25,13 +25,14 @@ header h2{
 }
 h1{
     font-family: Arial;
-    font-size: 36pt;
+    font-size: 40pt;
     text-align: left;
     letter-spacing: -2px;
     font-style: oblique;
     margin-top: 5px;
     margin-bottom: 10px;
-    color: midnightblue;
+    color: yellow;
+    -webkit-text-stroke: 1px red;
     text-shadow: 3px 3px 5px gray;
     display: inline-block;
 }
@@ -44,7 +45,7 @@ nav{
     display: inline-block;
     margin-top: 15px;
     position: absolute;
-    top: 12%;
+    top: 8%;
     left: 83%;
     
     
