@@ -1,0 +1,14 @@
+/* Header section styles */
+
+
+#header_background{
+    display: flex;
+    background-image: url(../Images/design1_image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   /*  background-position: 0px 0px; */  
+    background-color: aqua;
+      width: auto;
+      height: 50vh;
+      border-top-left-radius: 20px ;
+}
