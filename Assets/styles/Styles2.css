@@ -1,14 +1,223 @@
+/*  Normalizing */
+*{
+   font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Body general style */
+body {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-image: linear-gradient(2deg, rgb(31, 23, 18), rgb(153, 255, 219));
+  
+}
+
 /* Header section styles */
+header{
+    display: block;
+    
+    
+    
+}
+.Title-and-nav{
+  padding-top: 5em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  
+  
+}
+
+
+h1{
+   font-family: Arial;
+    font-size: 48pt;
+    text-align: left;
+    letter-spacing: -2px;
+    font-style: oblique;
+    align-self: baseline;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: yellow;
+    -webkit-text-stroke: 1px red;
+    text-shadow: 3px 3px  gray;
+    display: flex;
+}
+
+header h2{
+   
+    background-color: black;
+    color: white;
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+    margin-top: 0px;
+    border-bottom-left-radius:.5em ;
+    border-bottom-right-radius: .5em;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  flex-grow: inherit;
+  gap: .2em;
+  
+  
+  
+}
+/* Nav Button styles */
+
+nav a{
+  
+  color: white;
+  background-color: #4949ad;
+  padding: .7rem;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: .2em .2em .3em black;
+  text-decoration: none;
+  border-top-left-radius: .5em ;
+  border-top-right-radius: .5em;
+  opacity: 1;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+nav a:hover{
+  opacity: .6;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
 
 
 #header_background{
     display: flex;
     background-image: url(../Images/design1_image1.jpg);
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
-   /*  background-position: 0px 0px; */  
+    background-position-y:top; 
     background-color: aqua;
-      width: auto;
-      height: 50vh;
-      border-top-left-radius: 20px ;
+    max-width: 100%;
+    height: 50vh;
+    border-top-left-radius: 20px ;
+     /* border-top-right-radius: 20px; */
+}
+
+/* main Body styles */
+main{
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* gap: 2vw; */
+
+}
+aside{
+  background-color: #d7f3fad6;
+  margin-bottom: .5em;
+  border-top-left-radius: .5em;
+  border-bottom-left-radius: .5em;
+  min-height: 50em;
+  
+}
+aside img{
+  max-width: 20em;
+  
+}
+section{
+  background-color: #81cfd2;
+  margin-bottom: .5em;
+  
+  padding-left: 3em;
+  padding-right: 1em;
+  padding-top: 2em;
+  border-top-right-radius: .5em;
+  border-bottom-right-radius: .5em;
+  width: 100%;
+}
+
+article{
+  padding: 2em 2em 2em 2em;
+  margin-left: 2em;
+  margin-right: 1em;
+  
+}
+article h4{
+  margin-bottom: .5em;
+}
+
+
+
+
+
+/* Table styles */
+
+ td, th {
+  text-align: center;
+  padding-top: .5em;
+}
+table{
+  border: 1px none black;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  
+
+}
+th{
+  background-color: #ffcf40;
+  padding: .5em 1em .5em 1em;
+  
+}
+td{
+  background-color: deepskyblue;
+  padding-bottom: 1em;
+}
+ 
+/* Lists Styles */
+
+#Rules-title{
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+#Rules-subtitle{
+  text-align: center;
+}
+
+dl > dt{
+  font-weight: bold;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+dd{
+  margin-left: .5em;
+  margin-right: 0.5em;
+}
+ol .Sub-items{
+  margin-left: 1em;
+  list-style-type: lower-alpha;
+}
+li{
+  margin-left: 2em;
+}
+
+
+/* Footer styles */
+
+footer{
+  
+  background-color: cadetblue;
+  min-height: 2em;
+  border-bottom-left-radius: .5em;
+  border-bottom-right-radius: .5em;
+  max-height: 2em;
+}
+footer p{
+  padding-block-start: .5em;
+  text-align: center;
 }
