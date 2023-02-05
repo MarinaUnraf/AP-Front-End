@@ -22,7 +22,7 @@
                 <a href="./about.html">About MDHL</a>
                 <a href="./AsociationRules.html">Asociation Rules</a>
                 <a href="./Gameschedule.html">Game Schedule</a>
-                <a class="active" href="#">Registation Form</a>
+                <a href="./GamePermission.html">Registation Form</a>
                 <a href="./contact.html">Contact us</a>
             </nav>
          </div>
@@ -37,10 +37,29 @@
             <img src="Assets/Images/LogoMightyducks-01.png" alt="Hockey">
         </aside>
         <section>
-             <div class="Form-style">
+                <section class="Form-styles">
+                    <form action="./show_data.html" method="get">
+                        <fieldset>
+                            <Legend> Personal Information</Legend>
+                            <label for="first-name">Player´s First Name </label>
+                            <input type="text" name="first-name" id="first-name">
+                            <label for="last-name">Last Name </label>
+                            <input type="text" name="las-name" id="last-name"><br>
+                            <label for="adress">Street Adress </label>
+                            <input type="text" name="adress" id="adress"><br>
+                            <label for="city"> City </label>
+                            <input type="text" name="city" id="city">
+                            <label for="Zip-code">Zip Code </label>
+                            <input type="text" name="Zip-code" id="Zip-code"><br>
+                            <label for="birth-date"> Date of Birth </label>
+                            <input type="date" name="birth-date" id="birth-date"><br>
+                            <label for="parent-guardian-name"> Parent /Guardian Name </label>
+                            <input type="text" name="parent-guardian-name" id="parent-guardian-name">
+                        </fieldset>
+                        <input type="submit" value="Submit Form">
+                    </form>
 
-
-             </div> 
+                </section>
 
         </section>
 
