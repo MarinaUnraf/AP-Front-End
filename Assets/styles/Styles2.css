@@ -283,3 +283,21 @@ input[type=text] {
   border-bottom: 2px solid cornflowerblue;
 
 }
+
+/* Maps styles */
+.Game-locations{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Game-locations h2{
+  margin-top: 2em;
+  font-size: larger;
+}
+.Game-locations h4{
+  text-align: center;
+  margin-top: .5em;
+  background-color: #4949ad;
+  color: white;
+}
