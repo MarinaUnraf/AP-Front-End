@@ -41,7 +41,7 @@
                 <section class="Form-styles">
                     <h2 hidden>Information</h2>
                     <form action="./show_data.html" method="get">
-                        <fieldset>
+                        <fieldset class="Personal-info-box">
                             <Legend> Personal Information</Legend>
                             <label for="first-name">Player´s First Name </label>
                             <input type="text" name="first-name" id="first-name">
@@ -56,14 +56,14 @@
                             <label for="birth-date"> Date of Birth </label>
                             <input type="date" name="birth-date" id="birth-date"><br>
                             </fieldset>
-                            <fieldset id="Gender-box">
+                            <fieldset class="Gender-box">
                                 <legend>Gender</legend>
-                                <label for="Male">Male</label>
+                                <label for="Male">Male </label>
                                 <input type="radio" name="gender" id="Male" value="Male"> 
-                                <label for="Female">Female</label>
+                                <label for="Female">Female </label>
                                 <input type="radio" name="gender" id="Female" value="Female"> 
                             </fieldset>
-                            <fieldset id="Grade-box">
+                            <fieldset class="Grade-box">
                                 <legend>Grade</legend>
                                 <label for="preschool">Pre-school</label>
                                 <input type="radio" name="grade" id="preschool" value="Pre-school">
@@ -78,51 +78,70 @@
                                 <label for="fifth-grade">5th </label>
                                 <input type="radio" name="garde" id="fifth-grade" value="fifth-grade">
                             </fieldset>
-                            <fieldset id="school-box">
-                                <legend>Wich elementary School do you live near?</legend>
-                                <h3> closest-school</h3>
+                            <fieldset class="school-box">
+                                <legend>Wich elementary School do you live near? <br><br>
+                                    Closest-school
+                                </legend>
+                            
                                 <br>
-                                <input type="radio" name="AJ-Katzenmaier" id="AJ-Katzenmaier" value="AJ-Katzenmaier">
-                                <label for="AJ-Katzenmaier"> AJ Katzenmaimer</label>
+                                <input type="radio" name="closest-school" id="AJ-Katzenmaier" value="AJ-Katzenmaier">
+                                <label > AJ Katzenmaimer</label>
                                 <input type="radio" name="closest-school" id="Greenbay" value="Greenbay">
-                                <label for="Greenbay">Greenbay </label>
+                                <label >Greenbay </label>
                                 <input type="radio" name="closest-school" id="howard-a-yeager">
-                                <label for="howard-a-yeager">Howard A Yeager </label>
+                                <label >Howard A Yeager </label>
                                 <input type="radio" name="closest-school" id="marjorie-p-hart" value="marjorie-p-hart">
-                                <label for="marjorie-p-hart"> Marjorie P Hart</label>
+                                <label > Marjorie P Hart</label>
                                 <input type="radio" name="closest-school" id="north-elementary" value="north-elementary">
-                                <label for="north-elementary"> North Elementary</label>
-                                <input type="radio" name="south-elementary" id="south-elementary" value="south-elementary">
-                                <label for="south-elementary"> South Elementary</label>
+                                <label > North Elementary</label>
+                                <input type="radio" name="closest-school" id="south-elementary" value="south-elementary">
+                                <label > South Elementary</label>
                             </fieldset>
-                            <fieldset id="player-position-box">
+                            <br>
+                            <fieldset class="player-position-box">
                                 <legend>What position(s) do you normally play? (check all if that apply) </legend>
-                                <input type="checkbox" name="forward" id="forward" value="forward">
                                 <label for="forward"> Forward </label>
-                                <input type="checkbox" name="defense" id="defense" value="defense">
+                                <input type="checkbox" name="forward" id="forward" value="forward">
                                 <label for="defense"> Defense </label>
-                                <input type="checkbox" name="midfield" id="midfield" value="midfield">
+                                <input type="checkbox" name="defense" id="defense" value="defense">
                                 <label for="midfield"> Midfield </label>
-                                <input type="checkbox" name="goalkeeper" id="goalkeeper" value="goalkeeper">
+                                <input type="checkbox" name="midfield" id="midfield" value="midfield">
                                 <label for="goalkeeper"> Goalkeeper</label>
+                                <input type="checkbox" name="goalkeeper" id="goalkeeper" value="goalkeeper">
                             </fieldset>
-                            <fieldset id="uniform-size-box">
-                                <input type="radio" name="y-small" id="y-small" value="y-small">
-                                <label for="y-small"> Youth Small</label>
-                                <input type="radio" name="y-medium" id="y-medium" value="y-medium">
-                                <label for="y-medium"> Youth Medium</label>
-                                <input type="radio" name="y-large" id="y-large" value="y-large">
-                                <label for="y-large"> Youth Large</label>
-                                <input type="radio" name="small" id="small" value="small">
-                                <label for="small"> Small </label>
-                                <input type="radio" name="medium" id="medium" value="medium">
-                                <label for="medium"> Medium </label>
-                                <input type="radio" name="large" id="large" value="large">
-                                <label for="large"> Large </label>
-                                <input type="radio" name="x-large" id="x-large" value="x-large">
-                                <label for="x-large"> Extra Large </label>
+                            <br>
+                            <fieldset class="uniform-size-box">
+                                <legend> Uniform Size</legend>
+                                <label> Youth Small
+                                        <input type="radio" name="size" id="y-small" value="y-small">
+                                </label>
+                                
+                                <label> Youth Medium
+                                        <input type="radio" name="size" id="y-Medium" value="y-Medium">
+                                </label>
+                                
+                                <label> Youth Large
+                                        <input type="radio" name="size" id="y-large" value="y-large">
+                                </label>
+                                
+                                <label> Small
+                                        <input type="radio" name="size" id="small" value="small">
+                                </label>
+                                
+                                <label> Medium 
+                                        <input type="radio" name="size" id="medium" value="medium">    
+                                </label>
+                                
+                                <label> Large
+                                        <input type="radio" name="size" id="large" value="large">
+                                </label>
+                                
+                                <label> Extra Large
+                                        <input type="radio" name="size" id="x-large" value="x-large">    
+                                </label>
+                                    
                             </fieldset>
-                            <fieldset id="permission-play-disclamer-box">
+                            <fieldset class="permission-play-disclamer-box">
                                 <legend>Permission to Play</legend>
                                 <p>
                                     I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by al the Rules

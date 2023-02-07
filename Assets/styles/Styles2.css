@@ -10,13 +10,15 @@
 body {
   margin-left: 10px;
   margin-right: 10px;
+  display: flex;
+  flex-direction: column;
   background-image: linear-gradient(2deg, rgb(31, 23, 18), rgb(153, 255, 219));
   
 }
 
 /* Header section styles */
 header{
-    display: block;
+    display:block;
     
     
     
@@ -99,10 +101,11 @@ nav a:hover{
     background-image: url(../Images/design1_image1.jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    background-position-y:top; 
+    background-position-y:top;
+    background-clip: border-box;
     background-color: aqua;
     max-width: 100%;
-    height: 50vh;
+    height: 30vh;
     border-top-left-radius: 20px ;
      /* border-top-right-radius: 20px; */
 }
@@ -111,6 +114,7 @@ nav a:hover{
 main{
   margin-top: 2vh;
   display: flex;
+  max-width: 100%;
   flex-direction: row;
   justify-content: space-between;
   /* gap: 2vw; */
@@ -178,6 +182,7 @@ td{
   background-color: deepskyblue;
   padding-bottom: 1em;
 }
+
  
 /* Lists Styles */
 
@@ -222,6 +227,8 @@ footer p{
   text-align: center;
 }
 
+
+
 /* Form styles */
 
 .Form-styles{
@@ -252,6 +259,7 @@ footer p{
       padding: .5em;
       border: none;
       margin: .5em;
+      background-color: azure;
  }
 
  form legend{
@@ -259,7 +267,7 @@ footer p{
     margin-left: .3em;
     font-size: larger;
     font-weight: bold;
-    color: darkslategray;
+    color: rgb(17, 34, 34);
 
  }
 
@@ -281,8 +289,76 @@ input {
 input[type=text] {
   border: none;
   border-bottom: 2px solid cornflowerblue;
+  background-color: azure;
 
 }
+.Gender-box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+    
+}
+
+
+
+.Grade-box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+
+.school-box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 2em;
+}
+
+.player-position-box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.uniform-size-box{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5em;
+  
+  
+}
+
+.uniform-size-box label{
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  
+}
+
+input[type=submit]{
+  max-width: 15%;
+  padding: 1em;
+  border-radius: .3em;
+  border: none;
+  background-color: #4949ad;
+  justify-content: center;
+  align-self: flex-end;
+  font-size: x-large;
+  font-weight: bolder;
+  color: white;
+}
+
+.permission-play-disclamer-box p{
+  line-height: 1.8;
+
+}
+
+
+
 
 /* Maps styles */
 .Game-locations{
